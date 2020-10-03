@@ -43,6 +43,34 @@
     let greeting = 'My name is ' + name;
     console.log(greeting);
 
+    console.log("Using functions");
+    
+    // function to make square numbers.
+    function makeSquare(theNumb) {
+      let squared = theNumb * theNumb;
+      return squared;
+    }
+
+    let try01 = makeSquare(3);
+    console.log(try01);
+    let try02 = makeSquare(5);
+    console.log(try02);
+    let try03 = makeSquare(11);
+    console.log(try03);
+
+    // function on my own
+    function makeName(firstName, middleName, lastName ) {
+      let name = firstName + ' ' + middleName + ' ' + lastName;
+      return name;
+    }
+
+    let name1 = makeName('Anna', 'Kathryn', 'Hutton');
+    console.log(name1);
+    let name2 = makeName('Robert', '"Beto"', "O'Rourke");
+    console.log(name2);
+    let name3 = makeName('Sherry', 'Lea', 'Hartsock');
+    console.log(name3);
+
   </script>
 </body>
 </html>
